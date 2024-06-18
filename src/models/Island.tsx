@@ -15,28 +15,34 @@ import islandScene from "../assets/3d/island.glb";
 
 const Island = ({ isRotating, setIsRotating, ...props }) => {
   const islandRef = useRef();
-
+  // Get access to the Three.js renderer and viewport
   const { gl, viewport } = useThree();
   const { nodes, materials } = useGLTF(islandScene);
 
+  // Use a ref for the last mouse x position
   const lastX = useRef(0);
+  // Use a ref for rotation speed
   const rotationSpeed = useRef(0);
+  // Define a damping factor to control rotation damping
   const dampingFactor = 0.95;
 
   const handlePointerDown = (e) => {
     e.stopPropagation();
     e.preventDefault();
-    setIsRotating(false);
+    setIsRotating(true);
 
+    // Calculate the clientX based on whether it's a touch event or a mouse event
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
 
+    // Store the current clientX position for reference
     lastX.current = clientX;
   };
 
+  // Handle pointer (mouse or touch) up event
   const handlePointerUp = (e) => {
     e.stopPropagation();
     e.preventDefault();
-    setIsRotating(true);
+    setIsRotating(false);
   };
 
   const handlePointerMove = (e) => {
