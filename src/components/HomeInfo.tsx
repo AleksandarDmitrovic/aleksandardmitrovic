@@ -27,8 +27,20 @@ const renderContent: {
       btnText="Learn More"
     />
   ),
-  3: <h1></h1>,
-  4: <h1></h1>,
+  3: (
+    <InfoBox
+      text="Developed multiple projexts over the years"
+      link="/projects"
+      btnText="Check out my portfolio"
+    />
+  ),
+  4: (
+    <InfoBox
+      text="Need a project done or looking for a developer? Feel free to contact me"
+      link="/contact"
+      btnText="Let's Connect"
+    />
+  ),
 };
 
 const HomeInfo = ({ currentStage }) => {
