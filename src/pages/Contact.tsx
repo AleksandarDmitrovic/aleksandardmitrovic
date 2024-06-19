@@ -8,15 +8,22 @@ const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [isLoading, setIsLoading] = useState(false);
+  const [currentAnimation, setCurrentAnimation] = useState("idle");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
-  const handleFocus = () => {};
-  const handleBlur = () => {};
+  const handleFocus = () => {
+    setCurrentAnimation("walk");
+  };
+  const handleBlur = () => {
+    setCurrentAnimation("idle");
+  };
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
+    setCurrentAnimation("hit");
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -34,9 +41,15 @@ const Contact = () => {
         setIsLoading(false);
         // TODO: Show success message
         // TODO: Hide an alert
+
+        setTimeout(() => {
+          setCurrentAnimation("idle");
+          setForm({ name: "", email: "", message: "" });
+        }, 3000);
       })
       .catch((error) => {
         setIsLoading(false);
+        setCurrentAnimation("idle");
         console.error(error);
       });
   };
@@ -108,6 +121,7 @@ const Contact = () => {
           <ambientLight intensity={0.5} />
           <Suspense fallback={<Loader />}>
             <Fox
+              currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.6, -0.6, 0]}
               scale={[0.5, 0.5, 0.5]}
