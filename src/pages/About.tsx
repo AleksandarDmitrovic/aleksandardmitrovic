@@ -34,6 +34,19 @@ const About = () => {
           ))}
         </div>
       </div>
+
+      <div className="py-16">
+        <h3 className="subhead-text">Work Experience</h3>
+        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+          <p>
+            I have consulted for many different companies, learned new
+            technologies and teamed up with fantastic developers. Here's a
+            summary of my experience.
+          </p>
+        </div>
+
+        <div className="mt-12 flex"></div>
+      </div>
     </section>
   );
 };
