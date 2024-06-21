@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, xerris } from "../assets/images";
 import {
   car,
   contact,
@@ -111,11 +111,11 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Intern	",
+    company_name: "Xerris Inc. Aquired by Accolite Digital",
+    icon: xerris,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "February 2021 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
