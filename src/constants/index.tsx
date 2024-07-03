@@ -182,7 +182,7 @@ export const socialLinks = [
   },
 ];
 
-export const projects = [
+export const portfolio = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",

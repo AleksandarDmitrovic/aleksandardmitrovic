@@ -22,12 +22,12 @@ const Navbar = () => {
       </nav>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
-          to="/projects"
+          to="/portfolio"
           className={({ isActive }) =>
             isActive ? "text-blue-500" : "text-black"
           }
         >
-          Projects
+          Portfolio
         </NavLink>
       </nav>
     </header>
