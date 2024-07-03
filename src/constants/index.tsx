@@ -114,7 +114,7 @@ export const experiences = [
     title: "Full Stack Intern	",
     company_name: "Xerris Inc. Aquired by Accolite Digital",
     icon: xerris,
-    iconBg: "#accbe1",
+    iconBg: "#f4fae9",
     date: "February 2021 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",

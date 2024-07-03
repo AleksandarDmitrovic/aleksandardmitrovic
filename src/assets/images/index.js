@@ -4,6 +4,6 @@ import shopify from "./shopify.png";
 import starbucks from "./starbucks.png";
 import tesla from "./tesla.png";
 import logo from "./logo.svg";
-import xerris from "./xerris.jpeg";
+import xerris from "./xerris.png";
 
 export { hero, meta, shopify, starbucks, tesla, logo, xerris };
