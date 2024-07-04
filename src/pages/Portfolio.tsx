@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { projects } from "../constants";
+import { arrow } from "../assets/icons";
 
 const Portfolio = () => {
   return (
@@ -43,6 +44,11 @@ const Portfolio = () => {
                 >
                   Source Code
                 </Link>
+                <img
+                  src={arrow}
+                  alt="arrow"
+                  className="w-4 h-4 object-contain"
+                />
               </div>
             </div>
           </div>
