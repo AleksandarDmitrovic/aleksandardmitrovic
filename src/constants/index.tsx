@@ -232,3 +232,54 @@ export const portfolio = [
     link: "https://github.com/adrianhajdin/project_ai_summarizer",
   },
 ];
+
+export const projects = [
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-red",
+    name: "Symposium",
+    description:
+      "Symposium is a video chat connection platform for people to discuss topics covered in the podcasts they love. Built with React, Node, Express, Socket.IO, and a PostgreSQL database. Testing: Cypress",
+    link: "https://github.com/AleksandarDmitrovic/symposium",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "TidyTask",
+    description:
+      "Tidy task is an auto categorizing to-do list organizational web application. Built with HTML, SASS, Node, Express and a PostgreSQL database.",
+    link: "https://github.com/AleksandarDmitrovic/tidyTask",
+  },
+  {
+    iconUrl: car,
+    theme: "btn-back-blue",
+    name: "Interview Scheduler",
+    description:
+      "Interview Scheduler is a single-page interview booking application where users can book, edit and delete interview appointments. My first React App. Built with React, HTML, CSS Node, Express, and a PostgreSQL database. Testing: Jest, Storybook, Cypress",
+    link: "https://github.com/AleksandarDmitrovic/scheduler",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-pink",
+    name: "Jungle",
+    description:
+      "A mini e-commerce application that was built with Rails 4.2. Built with Ruby on Rails, Stripe and a PostgreSQL database. Testing: RSpec, Capybara",
+    link: "https://github.com/AleksandarDmitrovic/jungle-rails",
+  },
+  {
+    iconUrl: estate,
+    theme: "btn-back-black",
+    name: "Tweeter",
+    description:
+      "Tweeter is a simple, single-page Twitter clone. Built with HTML, CSS, JS, jQuery, AJAX, Node, and Express.",
+    link: "https://github.com/AleksandarDmitrovic/tweeter",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "TinyApp",
+    description:
+      "TinyApp is a full-stack web application that allows users to shorten long URLs (à la bit.ly). Built with HTML, CSS, EJS, Node, and Express.",
+    link: "https://github.com/AleksandarDmitrovic/tinyapp",
+  },
+];
