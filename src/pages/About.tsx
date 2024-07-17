@@ -55,13 +55,13 @@ const About = () => {
           <VerticalTimeline>
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
-                key={`${experience.company_name}-${index}`}
+                key={`${experience.companyName}-${index}`}
                 date={experience.date}
                 icon={
                   <div className="flex justify-center items-center w-full h-full">
                     <img
                       src={experience.icon}
-                      alt={experience.company_name}
+                      alt={experience.companyName}
                       className="w-[60%] h-[60%] object-contain"
                     />
                   </div>
@@ -84,17 +84,19 @@ const About = () => {
                     className="text-black-500 font-medium font-base"
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    {experience.companyName}
                   </p>
                   <ul className="my-5 list-disc ml-5 space-y-2">
-                    {experience.points.map((point, index) => (
-                      <li
-                        key={`experience-point-${index}`}
-                        className="text-black-500/50 font-normal pl-1 text-sm"
-                      >
-                        {point}
-                      </li>
-                    ))}
+                    {experience.keyTasksAndResponsibilities.map(
+                      (point, index) => (
+                        <li
+                          key={`experience-point-${index}`}
+                          className="text-black-500/50 font-normal pl-1 text-sm"
+                        >
+                          {point}
+                        </li>
+                      )
+                    )}
                   </ul>
                 </div>
               </VerticalTimelineElement>

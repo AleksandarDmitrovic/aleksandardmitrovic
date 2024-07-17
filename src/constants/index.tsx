@@ -123,37 +123,22 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Full Stack Intern",
-    companyName: "Xerris Inc. Aquired by Accolite Digital",
-    companyDescription:
-      "Xerris, is a Calgary-based, remote cloud technology services company providing Application Modernization, DevOps, Kubernetes, Cloud Strategy, Migration, and Data & Analytics services to clients across North America.",
-    client: "Nutrien",
-    projectDescription: "",
-    techEnvironment: "",
-    icon: xerris,
-    iconBg: "#f4fae9",
-    date: "February 2021 - April 2021",
-    teamSize: "7",
-    keyTasksAndResponsibilities: [
-      "Worked as a Front End developer on an Agile/SCRUM development team of 7, creating a mobile and web-based app for running planning poker sessions.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
+    title: "Full stack Developer",
     companyName: "Accolite Digital",
     companyDescription: "",
-    client: "LaPrairie Group",
+    client: "Nutrien",
     projectDescription:
-      "Modernized the client's existing legacy Field Order Engine application (FOE), an MS Access based application used by employees in the field to view job details and create safety assessments. The React.js application is device agnostic allowing field operations staff to use personal devices to carry out their functions and remove the need for the more expensive Windows tablets.",
+      "Created a world-class digital platform for a fertilizer manufacturer that would provide a single human-centric place to conduct business and scale to meet a growing global business. Custom-designed and developed a front-end B2B experience and delivered multiple ERP integrations utilizing Microservices architecture.",
     techEnvironment:
-      "JavaScript/Typescript, React.js, AWS, RxDB, GraphQL, Git, Figma, Jira, Agile",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "April 2021 - October 2021",
-    teamSize: "10+",
+      "JavaScript/Typescript, React.js, MobX, AWS, CircleCI, Git, Figma, Jira, Agile, LaunchDarkly, ConfigCat, Google Tag Manager",
+    icon: meta,
+    iconBg: "#a2d2ff",
+    date: "February 2022 - April 2024",
+    teamSize: "30+",
     keyTasksAndResponsibilities: [
-      "Developed features on a web-based platform for field operations staff to perform job functions online and offline on personal devices.",
-      "Utilized React.js.js for responsive UI development.",
+      "Developed new features and maintained micro-frontend based web applications that optimize the efficiency and effectiveness of the sales and monitoring of fertilizer transactions for Nutrien's customers, Account Managers, and Sales representatives.",
+      "Worked with two custom storybook component libraries, CircleCI and React.js, to develop and maintain over 10 micro apps.",
+      "Was one of two developers to own an inventory reporting app project that was slated for three months that we completed in one month.",
     ],
   },
   {
@@ -167,7 +152,7 @@ export const experiences = [
       "JavaScript/Typescript, React.js, AWS, GraphQL, Git, Figma, Jira, Agile",
     icon: shopify,
     iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2021 - February 2022",
     teamSize: "10+",
     keyTasksAndResponsibilities: [
       "Developed features on a single-page application aimed at streamlining the operations of trucking dispatchers for Trimac using React.js and GraphQL.",
@@ -175,22 +160,37 @@ export const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full Stack Developer",
     companyName: "Accolite Digital",
     companyDescription: "",
-    client: "Nutrien",
+    client: "LaPrairie Group",
     projectDescription:
-      "Created a world-class digital platform for a fertilizer manufacturer that would provide a single human-centric place to conduct business and scale to meet a growing global business. Custom-designed and developed a front-end B2B experience and delivered multiple ERP integrations utilizing Microservices architecture.",
+      "Modernized the client's existing legacy Field Order Engine application (FOE), an MS Access based application used by employees in the field to view job details and create safety assessments. The React.js application is device agnostic allowing field operations staff to use personal devices to carry out their functions and remove the need for the more expensive Windows tablets.",
     techEnvironment:
-      "JavaScript/Typescript, React.js, MobX, AWS, CircleCI, Git, Figma, Jira, Agile, LaunchDarkly, ConfigCat, Google Tag Manager",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    teamSize: "30+",
+      "JavaScript/Typescript, React.js, AWS, RxDB, GraphQL, Git, Figma, Jira, Agile",
+    icon: tesla,
+    iconBg: "#fbc3bc",
+    date: "April 2021 - September 2021",
+    teamSize: "10+",
     keyTasksAndResponsibilities: [
-      "Developed new features and maintained micro-frontend based web applications that optimize the efficiency and effectiveness of the sales and monitoring of fertilizer transactions for Nutrien's customers, Account Managers, and Sales representatives.",
-      "Worked with two custom storybook component libraries, CircleCI and React.js, to develop and maintain over 10 micro apps.",
-      "Was one of two developers to own an inventory reporting app project that was slated for three months that we completed in one month.",
+      "Developed features on a web-based platform for field operations staff to perform job functions online and offline on personal devices.",
+      "Utilized React.js.js for responsive UI development.",
+    ],
+  },
+  {
+    title: "Full Stack Intern",
+    companyName: "Xerris Inc. Aquired by Accolite Digital",
+    companyDescription:
+      "Xerris, is a Calgary-based, remote cloud technology services company providing Application Modernization, DevOps, Kubernetes, Cloud Strategy, Migration, and Data & Analytics services to clients across North America.",
+    client: "Nutrien",
+    projectDescription: "",
+    techEnvironment: "",
+    icon: xerris,
+    iconBg: "#f4fae9",
+    date: "February 2021 - April 2021",
+    teamSize: "7",
+    keyTasksAndResponsibilities: [
+      "Worked as a Front End developer on an Agile/SCRUM development team of 7, creating a mobile and web-based app for running planning poker sessions.",
     ],
   },
 ];
