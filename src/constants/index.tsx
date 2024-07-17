@@ -123,55 +123,74 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Full Stack Intern	",
-    company_name: "Xerris Inc. Aquired by Accolite Digital",
+    title: "Full Stack Intern",
+    companyName: "Xerris Inc. Aquired by Accolite Digital",
+    companyDescription:
+      "Xerris, is a Calgary-based, remote cloud technology services company providing Application Modernization, DevOps, Kubernetes, Cloud Strategy, Migration, and Data & Analytics services to clients across North America.",
+    client: "Nutrien",
+    projectDescription: "",
+    techEnvironment: "",
     icon: xerris,
     iconBg: "#f4fae9",
     date: "February 2021 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    teamSize: "7",
+    keyTasksAndResponsibilities: [
+      "Worked as a Front End developer on an Agile/SCRUM development team of 7, creating a mobile and web-based app for running planning poker sessions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Full Stack Developer",
+    companyName: "Accolite Digital",
+    companyDescription: "",
+    client: "LaPrairie Group",
+    projectDescription:
+      "Modernized the client's existing legacy Field Order Engine application (FOE), an MS Access based application used by employees in the field to view job details and create safety assessments. The React.js application is device agnostic allowing field operations staff to use personal devices to carry out their functions and remove the need for the more expensive Windows tablets.",
+    techEnvironment:
+      "JavaScript/Typescript, React.js, AWS, RxDB, GraphQL, Git, Figma, Jira, Agile",
     icon: tesla,
     iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    date: "April 2021 - October 2021",
+    teamSize: "10+",
+    keyTasksAndResponsibilities: [
+      "Developed features on a web-based platform for field operations staff to perform job functions online and offline on personal devices.",
+      "Utilized React.js.js for responsive UI development.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Full Stack Developer",
+    companyName: "Accolite Digital",
+    companyDescription: "",
+    client: "Trimac",
+    projectDescription:
+      "Created a web application for a bulk transportation company that operates across Canada and the continental US. Leveraged Trimac's pre-existing AWS microservices foundation to build out a responsive web application that modernized and increased the efficiency of the company's entire trucking network.",
+    techEnvironment:
+      "JavaScript/Typescript, React.js, AWS, GraphQL, Git, Figma, Jira, Agile",
     icon: shopify,
     iconBg: "#b7e4c7",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    teamSize: "10+",
+    keyTasksAndResponsibilities: [
+      "Developed features on a single-page application aimed at streamlining the operations of trucking dispatchers for Trimac using React.js and GraphQL.",
+      "Created company-specific components in a custom storybook component library.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    companyName: "Accolite Digital",
+    companyDescription: "",
+    client: "Nutrien",
+    projectDescription:
+      "Created a world-class digital platform for a fertilizer manufacturer that would provide a single human-centric place to conduct business and scale to meet a growing global business. Custom-designed and developed a front-end B2B experience and delivered multiple ERP integrations utilizing Microservices architecture.",
+    techEnvironment:
+      "JavaScript/Typescript, React.js, MobX, AWS, CircleCI, Git, Figma, Jira, Agile, LaunchDarkly, ConfigCat, Google Tag Manager",
     icon: meta,
     iconBg: "#a2d2ff",
     date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    teamSize: "30+",
+    keyTasksAndResponsibilities: [
+      "Developed new features and maintained micro-frontend based web applications that optimize the efficiency and effectiveness of the sales and monitoring of fertilizer transactions for Nutrien's customers, Account Managers, and Sales representatives.",
+      "Worked with two custom storybook component libraries, CircleCI and React.js, to develop and maintain over 10 micro apps.",
+      "Was one of two developers to own an inventory reporting app project that was slated for three months that we completed in one month.",
     ],
   },
 ];
