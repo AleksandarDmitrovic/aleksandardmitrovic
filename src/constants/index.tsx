@@ -1,9 +1,4 @@
 import {
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  xerris,
   symposium_gif,
   jungle,
   scheduler,
@@ -23,19 +18,21 @@ import {
   javascript,
   linkedin,
   mongodb,
-  motion,
   mui,
   nextjs,
   nodejs,
   pricewise,
   react,
-  redux,
   sass,
   snapgram,
   summiz,
   tailwindcss,
   threads,
   typescript,
+  xerris,
+  laPrairie,
+  nutrien,
+  trimac,
 } from "../assets/icons";
 
 export const skills = [
@@ -131,8 +128,8 @@ export const experiences = [
       "Created a world-class digital platform for a fertilizer manufacturer that would provide a single human-centric place to conduct business and scale to meet a growing global business. Custom-designed and developed a front-end B2B experience and delivered multiple ERP integrations utilizing Microservices architecture.",
     techEnvironment:
       "JavaScript/Typescript, React.js, MobX, AWS, CircleCI, Git, Figma, Jira, Agile, LaunchDarkly, ConfigCat, Google Tag Manager",
-    icon: meta,
-    iconBg: "#a2d2ff",
+    icon: nutrien,
+    iconBg: "#d8e9c6",
     date: "February 2022 - April 2024",
     teamSize: "30+",
     keyTasksAndResponsibilities: [
@@ -150,8 +147,8 @@ export const experiences = [
       "Created a web application for a bulk transportation company that operates across Canada and the continental US. Leveraged Trimac's pre-existing AWS microservices foundation to build out a responsive web application that modernized and increased the efficiency of the company's entire trucking network.",
     techEnvironment:
       "JavaScript/Typescript, React.js, AWS, GraphQL, Git, Figma, Jira, Agile",
-    icon: shopify,
-    iconBg: "#b7e4c7",
+    icon: trimac,
+    iconBg: "#f5c6c2",
     date: "September 2021 - February 2022",
     teamSize: "10+",
     keyTasksAndResponsibilities: [
@@ -168,8 +165,8 @@ export const experiences = [
       "Modernized the client's existing legacy Field Order Engine application (FOE), an MS Access based application used by employees in the field to view job details and create safety assessments. The React.js application is device agnostic allowing field operations staff to use personal devices to carry out their functions and remove the need for the more expensive Windows tablets.",
     techEnvironment:
       "JavaScript/Typescript, React.js, AWS, RxDB, GraphQL, Git, Figma, Jira, Agile",
-    icon: tesla,
-    iconBg: "#fbc3bc",
+    icon: laPrairie,
+    iconBg: "#f8d7bc",
     date: "April 2021 - September 2021",
     teamSize: "10+",
     keyTasksAndResponsibilities: [
@@ -182,7 +179,7 @@ export const experiences = [
     companyName: "Xerris Inc. Aquired by Accolite Digital",
     companyDescription:
       "Xerris, is a Calgary-based, remote cloud technology services company providing Application Modernization, DevOps, Kubernetes, Cloud Strategy, Migration, and Data & Analytics services to clients across North America.",
-    client: "Nutrien",
+    client: "",
     projectDescription: "",
     techEnvironment: "",
     icon: xerris,

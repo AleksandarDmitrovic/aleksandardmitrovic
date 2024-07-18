@@ -1,10 +1,7 @@
 import hero from "./hero.jpg";
 import meta from "./meta.png";
 import shopify from "./shopify.png";
-import starbucks from "./starbucks.png";
-import tesla from "./tesla.png";
 import logo from "./logo.svg";
-import xerris from "./xerris.png";
 import symposium_gif from "./symposium.gif";
 import symposium from "./symposium.png";
 import jungle from "./jungle.png";
@@ -17,10 +14,7 @@ export {
   hero,
   meta,
   shopify,
-  starbucks,
-  tesla,
   logo,
-  xerris,
   symposium,
   symposium_gif,
   jungle,

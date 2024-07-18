@@ -26,6 +26,11 @@ import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
+import xerris from "./xerris.png";
+import laPrairie from "./laPrairie.png";
+import nutrien from "./nutrien.png";
+import qubeIOT from "./qubeIOT.png";
+import trimac from "./trimac.png";
 
 export {
   css,
@@ -56,4 +61,9 @@ export {
   contact,
   soundon,
   soundoff,
+  xerris,
+  laPrairie,
+  nutrien,
+  qubeIOT,
+  trimac,
 };
