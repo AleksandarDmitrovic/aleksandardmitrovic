@@ -62,7 +62,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.companyName}
-                      className="w-[60%] h-[60%] object-contain"
+                      className="w-[75%] h-[75%] object-contain"
                     />
                   </div>
                 }
@@ -80,24 +80,57 @@ const About = () => {
                   <h3 className="text-black text-xl font-poppins font-semibold">
                     {experience.title}
                   </h3>
-                  <p
-                    className="text-black-500 font-medium font-base"
+                  <h4
+                    className="text-black-500 font-semibold font-base"
                     style={{ margin: 0 }}
                   >
                     {experience.companyName}
-                  </p>
+                  </h4>
+                  {experience.client && (
+                    <h4
+                      className="text-black-500 font-semibold font-base"
+                      style={{ margin: 0 }}
+                    >
+                      Client: {experience.client}
+                    </h4>
+                  )}
+                  {experience.teamSize && (
+                    <h4
+                      className="text-black-500 font-semibold font-base"
+                      style={{ margin: 0 }}
+                    >
+                      Team Size: {experience.teamSize}
+                    </h4>
+                  )}
+                  {experience.projectDescription && (
+                    <>
+                      <h4 className="text-black-500 font-semibold font-base m-0">
+                        Project Description:
+                      </h4>
+                      <p className="text-black-50/50 font-normal pl-1 text-sm text-balance">
+                        {experience.projectDescription}
+                      </p>
+                    </>
+                  )}
                   <ul className="my-5 list-disc ml-5 space-y-2">
                     {experience.keyTasksAndResponsibilities.map(
                       (point, index) => (
                         <li
                           key={`experience-point-${index}`}
-                          className="text-black-500/50 font-normal pl-1 text-sm"
+                          className="text-black-50/50 font-normal pl-1 text-base"
                         >
                           {point}
                         </li>
                       )
                     )}
                   </ul>
+                  {experience.techEnvironment && (
+                    <>
+                      <h4 className="text-black-500 font-semibold font-base">
+                        Tech Environment: {experience.techEnvironment}
+                      </h4>
+                    </>
+                  )}
                 </div>
               </VerticalTimelineElement>
             ))}
