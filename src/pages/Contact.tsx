@@ -55,7 +55,7 @@ const Contact = () => {
         setIsLoading(false);
         setCurrentAnimation("idle");
         console.error(error);
-        showAlert({ text: "I didm't receive your message", type: "danger" });
+        showAlert({ text: "I didn't receive your message", type: "danger" });
       });
   };
 
