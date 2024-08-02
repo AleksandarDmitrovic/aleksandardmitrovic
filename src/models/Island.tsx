@@ -16,7 +16,9 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   const islandRef = useRef();
   // Get access to the Three.js renderer and viewport
   const { gl, viewport } = useThree();
-  const { nodes, materials } = useGLTF(mountainIslandScene);
+  const { nodes, materials } = useGLTF(
+    "https://nln1ylzem1ajw8z6.public.blob.vercel-storage.com/island_mountain_with_canadian+serbian_flags-yGgyIyGIhKaX4CwAPrqxuApx1zwpS1.glb"
+  );
 
   // Use a ref for the last mouse x position
   const lastX = useRef(0);
