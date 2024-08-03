@@ -10,7 +10,7 @@ import { useRef, useEffect } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { a } from "@react-spring/three";
-import mountainIslandScene from "../assets/3d/island_mountain_with_canadian+serbian_flags.glb";
+import mountainIslandScene from "../assets/3d/island_mountain.glb";
 
 const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   const islandRef = useRef();
